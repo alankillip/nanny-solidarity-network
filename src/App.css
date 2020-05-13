@@ -1,6 +1,26 @@
 .App {
-  text-align: center;
+  max-width: 1024px;
 }
 
+.App-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
 
+.App-donation-form {
+  display: flex;
+  justify-content: center;
+}
 
+.App-moreinfo {
+  text-align: center;
+  padding: 15px;
+  background-color: #e3effc;
+}
+
+@media screen and (max-device-width: 480px) {
+  .App-header img {
+    width: 90%;
+  }
+}

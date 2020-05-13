@@ -57,10 +57,12 @@ function App() {
           Those who earn more than £80k a year: We ask that you consider making a substantial donation of £200+ and above
         </p>
 
-
-        <iframe allowpaymentrequest="" frameBorder="0" height="900px" name="donorbox" scrolling="no" seamless="seamless"
-  src="https://donorbox.org/embed/childcare-workers-solidarity-fund"
-  style={{maxWidth: 500, minWidth: 250, maxHeight: 'none!important', width: "100%"}}/>
+        <div className="App-donation-form">
+          <iframe title="donorbox" allowpaymentrequest="" frameBorder="0" height="900px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/childcare-workers-solidarity-fund" style={{maxWidth: 500, minWidth: 250, maxHeight: 'none!important', width: "100%"}}/>
+        </div>
+        <p className="App-moreinfo">
+          Any questions? Please email us at: <a href="mailto:info@nannysolidaritynetwork.com">info@nannysolidaritynetwork.com</a>
+        </p>
       </div>
     </div>
   );
