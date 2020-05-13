@@ -9,7 +9,7 @@ function App() {
         <img src={logo} alt="logo" />
       </header>
       <div className="main">
-        <h2>
+        <h2 className="main-header">
           LOVE WON’T PAY THE BILLS
         </h2>
         <p>
