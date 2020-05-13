@@ -10,18 +10,29 @@ code {
     monospace;
 }
 
-
-
 .main {
   font-family: unnaregular;
   font-weight: 400;
   font-style: normal;
-  line-height: 1.3em;
+  line-height: 1.4em;
   font-size: 28px;
+  text-align: left;
   text-transform: none;
   text-decoration: none;
   letter-spacing: .02em;
   margin: 0px 100px;
+  overflow-wrap: break-word;
+}
+
+.main-header {
+  line-height: 1.1em;
+}
+
+@media screen and (max-device-width: 480px) {
+  .main {
+    font-size: 22px;
+    margin: 0 25px;
+  }
 }
 
 @font-face {
