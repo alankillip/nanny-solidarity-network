@@ -52,7 +52,7 @@ function App() {
         </p>
 
         <div className="App-donation-form">
-          <iframe title="donorbox" allowpaymentrequest="" frameBorder="0" height="900px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/childcare-workers-solidarity-fund" style={{maxWidth: 500, minWidth: 250, maxHeight: 'none!important', width: "100%"}}/>
+          <iframe title="donorbox" allowpaymentrequest="" frameBorder="0" height="900px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/childcare-workers-solidarity-fund?default_interval=m&amount=5" style={{maxWidth: 500, minWidth: 250, maxHeight: 'none!important', width: "100%"}}/>
         </div>
         <p className="App-moreinfo">
           Any questions? Please email us at: <a href="mailto:info@nannysolidaritynetwork.com">info@nannysolidaritynetwork.com</a>
